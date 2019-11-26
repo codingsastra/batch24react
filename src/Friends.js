@@ -9,6 +9,14 @@ class Friends extends Component{
         }
     }
 
+    componentWillMount(){
+        console.log('Before render')
+    }
+
+    componentDidMount(){
+        console.log('After render')
+    }
+
     render(){
         return(
             <div>
