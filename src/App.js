@@ -7,6 +7,8 @@ import Todos from './Todos'
 import Users from './Users'
 import Library from './Library'
 
+import MyLibrary from './MyLibrary/Library'
+
 class  App extends Component{
   render(){
     return (
@@ -14,7 +16,7 @@ class  App extends Component{
         <header className="App-header">
           <Welcome title="Varma" year={2022} password="abcdef"/>
         </header>
-        <Library/>
+        <MyLibrary/>
       </div>
     );
   }
